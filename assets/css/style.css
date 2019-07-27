@@ -24,14 +24,15 @@ header {
 h1 {
     background-color: #4aaaa5;
     margin: 0;
-    width: 350px;
+    width: 300px;
     height: 100px;
-    padding-top: 10px;
+    padding-top: 15px;
     text-align: center;
     line-height: 2;
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
+    font-size: 24px;
 }
 
 nav {
@@ -48,6 +49,7 @@ li {
 li a {
     text-decoration: none;
     color: #777777;
+    font-size: 14px;
 }
 
 .rborder {
@@ -58,8 +60,38 @@ li a {
 .container {
     width: 960px;
     background-color: #ffffff;
-    margin-left: 25%;
+    margin: 5% 25% 5% 25%;
+}
 
+.about {
+    font-size: 16px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: solid 2px #cccccc;
+    margin: 0px 27px 25px 25px;
+    padding-top: 10px;
+}
+
+img {
+    float: left;
+    margin: 0px 15px 15px 25px;
+}
+
+.content {
+    margin: 0px 25px 0px 25px;
+    padding-bottom: 25px;
+
+    
 
 }
 
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+}
+
+#copyright {
+    color: #cccccc;
+    font-size: 12px;
+}
