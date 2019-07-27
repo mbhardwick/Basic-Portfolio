@@ -102,8 +102,34 @@ footer {
 }
 /*End Footer*/
 
-/*Begin Portfolio*/
 
+/*Begin Portfolio*/
+#pcontent {
+    overflow: hidden;
+    clear: both;
+    margin: 0px 50px 0px 50px;
+}
+
+.project-wrap {
+    float: left;
+}
+
+.pimg {
+    width: 250px;
+    height: 222px;
+    
+}
+
+.plabel {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center; 
+    padding: 15px;
+    position: relative;
+    height: 20px;
+    width: 250px;
+    
+}
 /*End Portfolio*/
 
 
@@ -113,6 +139,7 @@ footer {
     margin-left: 25px;
     background: #ffffff;
     padding-bottom: 10px;
+    
 }
 
 .contact-input {
