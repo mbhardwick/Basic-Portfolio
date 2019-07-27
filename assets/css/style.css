@@ -96,7 +96,7 @@ footer {
     text-align: center;
 }
 
-#copyright {
+.copyright {
     color: #cccccc;
     font-size: 12px;
 }
@@ -106,5 +106,29 @@ footer {
 
 /*End Portfolio*/
 
+
+
 /*Begin Contact*/
+.contact-label {
+    margin-left: 25px;
+    background: #ffffff;
+    padding-bottom: 10px;
+}
+
+.contact-input {
+    width: 910px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#button {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 80px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
 /*End Contact*/

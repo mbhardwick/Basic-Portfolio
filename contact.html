@@ -27,31 +27,44 @@
     
         </header>
 
-    <div>
+    <div class="container">
 
-    <div>
-        <form action="action_page.php">
+        <section class="about">
+            <h2>Contact</h2>
+        </section>
 
+    
+    <form action="action_page.php">
+
+        <div class="contact-label">
             <label for="name">Name</label>
-            <input type="text"  id="name" name="name" placeholder="John Smith">
+            <br>
+            <input type="text" class="contact-input" id="name" name="name" placeholder="John Smith">
+        </div>    
 
+        <div class ="contact-label">
             <label for="email">Email</label>
-            <input type="text" id="email" placeholder="example@gmail.com">
+            <br>
+            <input type="text" class="contact-input" id="email" placeholder="example@gmail.com">
+        </div>    
 
+        <div class="contact-label">
             <label for="msg">Message</label>
-            <textarea type="text" id="msg" style="height:200px"></textarea>
+            <br>
+            <textarea type="text" class="contact-input" id="msg" style="height:200px"></textarea>
+        </div>
 
-            <input type="submit" value="Submit">
-        
-        </form>
+       
+        <input id="button" type="submit" value="Submit">
+       
 
+    </form>
 
-    </div>
 
     </div>
 
     <footer>
-        <p>Copyright &copy</p>
+        <p class="copyright">Copyright &copy</p>
     </footer>
 </body>
 
