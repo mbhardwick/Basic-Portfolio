@@ -79,13 +79,19 @@ li a {
 
 img {
     float: left;
-    margin: 0px 15px 15px 25px;
+    margin: 10px 15px 15px 25px;
 }
 
 .content {
     margin: 0px 25px 0px 25px;
     padding-bottom: 25px;
 }
+
+p {
+    line-height: 2;
+}
+
+
 /*End Index*/
 
 /*Begin Footer*/
