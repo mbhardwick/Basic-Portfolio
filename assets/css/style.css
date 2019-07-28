@@ -7,6 +7,10 @@ body {
     color: #777777;
 }
 
+a:hover {
+    color: rgb(212, 37, 119);
+  }
+
 /* Begin Header*/
 
 header {
