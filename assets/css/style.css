@@ -141,8 +141,17 @@ footer {
     padding: 15px;
     width: 100%;
     line-height: 30px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-weight: 300;
+}
+.repo {
+    color: #777777;
+    text-decoration: none;
+    margin-left: 145px;
+    margin-top: 30px;
+}
+a.repo:hover {
+    color: rgb(245, 81, 158);
 }
 .thumb {
     width: 400px;
