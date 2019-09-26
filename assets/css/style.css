@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     font-size: 18px;
     line-height: 34px;
@@ -9,39 +8,32 @@ body {
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/subtle_grunge.png);
     color: #777777;
 }
-
 .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
 }
-
 h1, h2, h3, p {
     margin-bottom: 0;
 }
-
 p:last-child {
     margin-bottom: 0;
 }
-
 h1, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: 700;
     color: #4aaaa5
 }
-
 h1 {
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #cccccc;
     padding-bottom: 20px;
 }
-
 h2, h3 {
     font-size: 22px;
 }
-
 /*Header*/
 #masthead {
     width: 100%;
@@ -53,7 +45,6 @@ h2, h3 {
     overflow: auto; 
     position: fixed;
 }
-
 #logo {
     width: 325px;
     height: 90px;
@@ -67,12 +58,10 @@ h2, h3 {
     font-size: 30px;
     text-decoration: none;
 }
-
 nav {
     float: right;
     margin-top: 25px;
 }
-
 nav a {
     
     display: inline-block;
@@ -87,11 +76,9 @@ nav a {
 nav a:first-child {
     border-left: 0 none;
 }
-
 a:hover {
     color: rgb(212, 37, 119);
 }
-
 /*Index*/
 #main-container {
     padding-top: 130px;
@@ -105,7 +92,6 @@ a:hover {
     max-width: 960px;
     float: left;
 }
-
 .auth-image {
     width: 200px;
     height: auto;
@@ -113,8 +99,6 @@ a:hover {
     float: left;
     margin-right: 25px;
 }
-
-
 /*Footer*/
 footer {
     border-top: 8px solid #4aaaa5;
@@ -125,11 +109,9 @@ footer {
     clear: both;
     font-size: 12px;
 }
-
-
 /*Portfolio*/
 .work {
-    width: 275px;
+    width: 400px;
     margin: 20px 0px 25px;
     overflow: auto;
     position: relative;
@@ -137,14 +119,13 @@ footer {
 }
  .work:nth-child(even) {
      margin-right: 40px;
+     margin-left: 30px;
  }
-
  .work img {
      width: 100%;
      border: 0 none;
      opacity: .8;
 }
-
 .work h3 {
     border-bottom: 0;
     background: #4aaaa5;
@@ -158,12 +139,14 @@ footer {
     margin-bottom: 0;
     font-weight: 300;
 }
-
 .thumb {
-    width: 275px;
-    height: 250px;
+    width: 400px;
+    height: 225px;
 }
-
+#resume{
+    clear: left;
+    text-align: center;
+}
 /*Begin Contact*/
 #contact-form ul {
     margin-bottom: 20px;
@@ -199,36 +182,27 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 }
-
 @media only screen and (max-width: 980px) {
-
     .container {
         padding: 0 20px;
         max-width: 768px;
     }
-
-
     #main-container {
         padding-top: 130px;
     }
-
     .main-section {
         max-width: 480px;
     }
-
     .work {
         width: 47%;
         margin-bottom: 10px;
     }
-
     .work:nth-child(even) {
         margin-right: 0;
     }
-
     .work:nth-child(odd) {
         float: right;
     }
-
     .auth-image {
         width: 50%;
     }
@@ -241,24 +215,19 @@ input[type=submit] {
     .main-section {
         max-width: 100%;
     }
-
     #main-container {
         overflow: auto;
     }
-
     .work {
         width: 47%;
         margin-bottom: 10px;
     }
-
     .work:nth-child(even) {
         margin-right: 0;
     }
-
     .work:nth-child(odd) {
         float: right;
     }
-
     .auth-image {
         width: 50%;
     }
@@ -268,26 +237,21 @@ input[type=submit] {
     .container {
         padding: 0;
     }
-
     #masthead {
         position: static;
         margin-bottom: 20px;
     }
-
     #logo, .work, .auth-image {
         width: 100%;
     }
-
     #main-container {
         padding-top: 0;
     }
-
     nav {
         text-align: center;
         width: 100%;
         margin: 15px 0;
     }
-
     nav a {
         width: 30%;
         padding-left: 0;
