@@ -147,7 +147,6 @@ footer {
 .repo {
     color: #777777;
     text-decoration: none;
-    margin-left: 145px;
     margin-top: 30px;
 }
 a.repo:hover {
@@ -184,18 +183,18 @@ a.repo:hover {
 }
 @media only screen and (max-width: 980px) {
     .container {
-        padding: 0 20px;
+        padding: 0 10px;
         max-width: 768px;
     }
     #main-container {
         padding-top: 130px;
     }
     .main-section {
-        max-width: 480px;
+        max-width: 100%;
     }
     .work {
         width: 47%;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     .work:nth-child(even) {
         margin-right: 0;
